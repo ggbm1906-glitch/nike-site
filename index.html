@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>AviSales — Главная</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;padding:0;font-family:'Inter',sans-serif;background:#0f172a;color:#e5e7eb;}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 60px;background:#020617;position:fixed;width:100%;top:0;z-index:100;}
+header h1{font-family:'Playfair Display',serif;font-size:30px;color:#38bdf8;}
+nav a{color:#cbd5f5;text-decoration:none;margin-left:30px;font-weight:500;transition:0.3s;}
+nav a:hover{color:#38bdf8;}
+.hero{padding:180px 20px 120px;text-align:center;max-width:1000px;margin:auto;}
+.hero h2{font-family:'Playfair Display',serif;font-size:60px;margin-bottom:20px;color:#38bdf8;}
+.hero p{font-size:20px;opacity:.85;margin-bottom:50px;}
+.buttons{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;}
+.btn{padding:16px 40px;border-radius:30px;text-decoration:none;font-size:18px;font-weight:500;transition:.3s;display:inline-block;}
+.btn-call{background:#38bdf8;color:#020617;}
+.btn-whatsapp{background:#22c55e;color:#020617;}
+.btn-mail{background:#facc15;color:#020617;}
+.btn:hover{transform:scale(1.08);box-shadow:0 0 20px rgba(255,255,255,0.2);}
+section{padding:100px 60px;max-width:1200px;margin:auto;}
+section h2{font-family:'Playfair Display',serif;font-size:42px;margin-bottom:30px;text-align:center;color:#38bdf8;}
+section p{max-width:900px;margin:auto;opacity:.85;font-size:18px;margin-bottom:20px;text-align:center;}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px;margin-top:50px;}
+.card{background:rgba(255,255,255,0.05);padding:30px;border-radius:20px;transition:0.3s;}
+.card:hover{background:rgba(56,189,248,0.1);}
+form input,form textarea{width:100%;padding:14px;margin-bottom:10px;border-radius:8px;border:none;font-size:16px;}
+form button{margin-top:10px;padding:14px 25px;border:none;border-radius:25px;background:#38bdf8;cursor:pointer;font-weight:500;font-size:16px;}
+form button:hover{transform:scale(1.05);}
+footer{text-align:center;padding:60px;opacity:.6;font-size:16px;}
+@media(max-width:768px){header{flex-direction:column;gap:10px}.hero h2{font-size:42px}}
+</style>
+</head>
+<body>
+<header>
+<h1>AviSales</h1>
+<nav>
+<a href="index.html">Главная</a>
+<a href="about.html">О компании</a>
+<a href="services.html">Услуги</a>
+<a href="jobs.html">Вакансии</a>
+<a href="support.html">Техподдержка</a>
+<a href="contacts.html">Контакты</a>
+</nav>
+</header>
+<div class="hero">
+<h2>Добро пожаловать в AviSales</h2>
+<p>Мы помогаем людям путешествовать по всему миру. Присоединяйтесь к нашей команде или свяжитесь с нами для сотрудничества.</p>
+<div class="buttons">
+<a href="tel:+77715705224" class="btn btn-call">📞 Позвонить</a>
+<a href="https://wa.me/77715705224" target="_blank" class="btn btn-whatsapp">💬 WhatsApp</a>
+<a href="mailto:avi.sales@gmail.com" class="btn btn-mail">✉️ Email</a>
+</div>
+</div>
+<footer>© 2026 AviSales | Официальный сайт компании</footer>
+</body>
+</html>
